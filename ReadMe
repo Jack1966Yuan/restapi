@@ -1,0 +1,11 @@
+execute command to start server: npm start
+
+use postman to verify the Rest Api works or not
+
+(1) Get http://localhost:4000/products
+(2) add a new product request, POST http://localhost:4000/products
+    {
+        "name": "one name",
+        "price": "123.45"
+    }
+
